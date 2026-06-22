@@ -51,10 +51,6 @@ android {
     }
     kotlin {
         jvmToolchain(17)
-
-        compileOptions {
-            targetCompatibility = JavaVersion.VERSION_17
-        }
     }
 
     packaging {
